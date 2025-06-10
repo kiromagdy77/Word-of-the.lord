@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en , ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"rel="stylesheet"/>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="Materials/Title-Logo.svg" />
+    <title>Word of the lord-الكتاب المقدس</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="Materials/Logo.svg" alt="Logo">
+                </a>
+            </div>
+            <div>
+                <h2>Word of the lord</h2>
+            </div>
+            <div class="nav-links">
+                <a href="Ezaat.html">عظات</a>
+                <a href="Asrar.html">الاسرار المقدسة</a>
+                <a href="Agpeya.html">الاجبية المقدسة</a>
+                <a href="Bible.html"><span>الكتاب المقدس</span></a>
+                <a href="index.html">الرئيسية</a>
+                <a href="https://www.instagram.com/word_of_the.lord/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+    <main class="bible-main-container">
+            <h2>اقرأ الكتاب المقدس</h2>
+            <hr>
+            <div class="select-bible-container">
+                <div>
+                    <select id="verse-select">
+                        <option value="" disabled selected>اختر الآية</option>
+                    </select>
+                    <label for="verse-select">السفر :</label>
+
+                    <select id="book-select">
+                        <option value="" disabled selected></option>
+                    </select>
+                  <label for="book-select">الاصحاح :</label>
+
+                    <select id="chapter-select">
+                        <option value="" disabled selected>اختر الاصحاح</option>
+                    </select>
+                    <label for="chapter-select">الآية</label>
+                  </div>
+              </div>
+              <div class="verse-display-container">
+                  <p id="bible-content-area" class="verse-text"></p>
+              </div>
+    </main>
+    <footer>
+        <p>All rights reserved for || Word of the lord &copy; 2025 || Developed by Kiro Magdy</p>
+    </footer>
+    <script src="JS/Scripts.js"></script>
+</body>
+</html>
